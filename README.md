@@ -6,9 +6,7 @@ Este proyecto es una aplicación que permite convertir imágenes y además reali
 
 ## Requisitos
 
-1. Node.js (si estás utilizando un entorno basado en Node).
-2. Instalar dependencias necesarias.
-3. [ExchangeRate-API Key](https://app.exchangerate-api.com/dashboard)
+[ExchangeRate-API Key](https://app.exchangerate-api.com/dashboard)
 
 ### API Key
 
