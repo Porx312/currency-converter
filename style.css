@@ -1,0 +1,102 @@
+:root{
+    --main-color: #fffefe ;
+    --btn-color: rgb(0, 174, 255);
+    --text-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+background-image: url("./asset/vecteezy_abstract-background-with-a-grid-of-geometric-elements_23181765.svg");
+}
+
+
+.conversor-content{
+    padding: 2rem;
+    border-radius: 52px;
+    border-radius: 52px;
+    border-radius: 52px;
+    border-radius: 52px;
+    background: #ffffff;
+    box-shadow:  20px 20px 40px #e0e0e0,
+                 -20px -20px 40px #ffffff;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+                }
+.coin{
+    width:200px;
+}
+.coin img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 52px;
+background: #ffffff;
+box-shadow:  14px 14px 21px #ededed,
+             -14px -14px 21px #ffffff;
+    justify-content: center;
+    }
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+select{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    border-radius: 52px;
+background: #ffffff;
+box-shadow:  14px 14px 21px #ededed,
+             -14px -14px 21px #ffffff;
+}
+.btn img{
+    width: 40px;
+    object-fit: contain;
+}
+
+.separatore{
+    display: flex;
+    gap: 1rem;
+}
+
+.result{
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 52px;
+    background: #ffffff;
+    box-shadow:  14px 14px 21px #dbd8d8,
+                 -14px -14px 21px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
