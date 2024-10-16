@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btn = document.querySelector(".btn");
     const input = document.querySelector(".input")
     const convertText = document.querySelector(".convert-text")
-    const exchangeApi = async () => { 
+    const exchangeApi = async () => {                                 //aca va la api-key                           
         const response = await fetch("https://v6.exchangerate-api.com/v6/d939c7b79c1ab0a035e65b9c/latest/USD");
         
         if (response.ok) {
