@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener("click", () => {
             if(input.value.length === 0){
                 convertText.textContent = "No hay valor"
-                return
             }
             const resultado = parseFloat(input.value) * parseFloat($select2.value);
             convertText.textContent = resultado.toString();
