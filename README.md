@@ -1,4 +1,4 @@
-# Conversor de Imágenes y Monedas
+# Conversor de Monedas
 
 Este proyecto es una aplicación que permite convertir imágenes y además realizar conversiones de monedas utilizando la API de [ExchangeRate-API](https://app.exchangerate-api.com/dashboard).
 
